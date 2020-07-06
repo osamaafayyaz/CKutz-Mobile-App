@@ -1,0 +1,54 @@
+
+*{
+    font-family: 'Montserrat-SemiBold';
+}
+.list-md .item-block .item-inner{
+    border-bottom: none;
+}
+.btn-theme{
+    background-color: white;
+    border: 1px solid white;
+    color: #202020;
+    height: auto;
+    line-height: normal;
+}
+.btn-theme-outline{
+    background-color: transparent;
+    border: solid white;
+    color: white;
+    height: auto;
+    line-height: normal;
+}
+.btn-theme-outline:hover{
+    background-color: white !important;
+    color: #202020;
+}
+.padding-y-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.padding-y-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.padding-x-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.padding-x-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.border-2{
+    border-width: 2px;
+}
+.ripple-parent {
+    position: relative;
+    overflow: hidden;
+  }
+  .position-absolute{
+      position: absolute;
+  }
+  .position-relative{
+    position: relative;
+}

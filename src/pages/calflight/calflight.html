@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-navbar>
+    <div style="display: flex">
+        <button ion-button (click)="gototabs()" style="background: transparent;box-shadow: none" >
+        <ion-icon name="arrow-back" style="color: white;font-weight: 600;"></ion-icon>
+        </button> 
+        <ion-title style="padding: 0 !important;">Calculate</ion-title>
+    </div>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <h3 style="text-align: center;margin-top: 10px;color: #202020;">Offset your flight emissions!</h3>
+<br>
+<ion-label>From*</ion-label>
+<ion-input></ion-input>
+
+<ion-label>To*</ion-label>
+<ion-input></ion-input>
+
+<ion-label>Via</ion-label>
+<ion-input></ion-input>
+
+<ion-list radio-group>
+<ion-item>
+    <ion-label>Roundtrip</ion-label>
+    <ion-radio slot="start"></ion-radio>
+</ion-item>
+<ion-item>
+    <ion-label>One Way</ion-label>
+    <ion-radio slot="start"></ion-radio>
+</ion-item>
+</ion-list>
+
+<ion-label>No. of Passengers</ion-label>
+<ion-input></ion-input>
+
+<ion-list radio-group>
+<ion-item>
+    <ion-label>Economy Class</ion-label>
+    <ion-radio slot="start"></ion-radio>
+</ion-item>
+<ion-item>
+    <ion-label>Bussiness Class</ion-label>
+    <ion-radio slot="start"></ion-radio>
+</ion-item>
+<ion-item>
+    <ion-label>First Class</ion-label>
+    <ion-radio slot="start"></ion-radio>
+</ion-item>
+</ion-list>
+
+<button ion-button (click)="gotooffset()" class="cal">Calculate</button>
+    <p style="text-align:center;font-family: Montserrat-SemiBold-Italic;font-size: 11px;">
+        All offset payments and donations to CKutz (Switzerland and Germany) are tax-deductible.
+    </p>
+</ion-content>
+
