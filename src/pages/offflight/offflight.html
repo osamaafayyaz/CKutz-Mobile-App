@@ -1,0 +1,99 @@
+<ion-header>
+    <ion-navbar>
+        <div style="display: flex">
+            <button ion-button (click)="gototabs()" style="background: transparent;box-shadow: none">
+            <ion-icon name="arrow-back" style="color: white;font-weight: 600;"></ion-icon>
+            </button> 
+            <ion-title style="padding: 0 !important;">Offset</ion-title>
+        </div>
+        </ion-navbar>
+  </ion-header>
+
+<ion-content padding>
+  <h5 style="margin-top: 10px">Your Trip:</h5>
+  <p style="font-family: Montserrat-Regular">
+    Offset a ride of 3000 km<br>
+    Fuel: Petrol
+  </p>
+  <h5>CO<sub>2</sub> Amount:</h5>
+  <p style="font-family: Montserrat-Regular">
+    1.3 t
+  </p>
+  <div style="display: flex">
+      <div style="margin-right: 10px;width: 120px;padding-top: 10px;">
+            <img src="assets/imgs/chf.png">
+      </div>
+      <p style="font-size: 12px;">
+        If you would like to compensate in another currency, please choose from the following :
+      </p>
+  </div>
+  <br>
+  <div style="display: flex" class="currency">
+      <button ion-button style="width: 25%;background: transparent;color: #488aff;border: 1px solid #909090;">EUR</button>  
+      <button ion-button style="width: 25%;background: transparent;color: #488aff;border: 1px solid #909090;">CHF</button>  
+      <button ion-button style="width: 25%;background: transparent;color: #488aff;border: 1px solid #909090;">GBP</button>
+      <button ion-button style="width: 25%;background: transparent;color: #488aff;border: 1px solid #909090;">USD</button>
+  </div>
+  <br>
+  <ion-card>
+      <ion-item>
+        <img src="assets/imgs/first.jpg" style="height: 100px;">
+      </ion-item>
+    <ion-card-content style="font-family: Montserrat-Regular">
+          Compensation in climate projects in developing and newly industrialising countries.
+          <br><br>
+          <p style="text-align: end">
+              CHF 37.00
+          </p>
+      </ion-card-content>
+      <button ion-button style="width: 100%;margin-bottom:0;background:#28a745" (click)="gotopay()">Add To Cart</button>
+    </ion-card>
+
+    <ion-card>
+      <ion-item>
+        <img src="assets/imgs/second.jpg" style="height: 100px;">
+      </ion-item>
+    <ion-card-content style="font-family: Montserrat-Regular">
+        Enable efficient cookers for women in Kenya with your compensation. 
+        <br><br>
+          <p style="text-align: end">
+              CHF 41.00
+          </p>
+      </ion-card-content>
+      <button ion-button style="width: 100%;margin-bottom:0;background:#28a745" (click)="gotopay()">Add To Cart</button>
+    </ion-card>
+
+      <ion-card>
+      <ion-item>
+        <img src="assets/imgs/third.jpg" style="height: 100px;">
+      </ion-item>
+    <ion-card-content style="font-family: Montserrat-Regular">
+        Help smallhold farmers in Nicaragua with reforestation with your compensation. 
+        <br><br>
+          <p style="text-align: end">
+              CHF 39.00
+          </p>
+      </ion-card-content>
+      <button ion-button style="width: 100%;margin-bottom:0;background:#28a745" (click)="gotopay()">Add To Cart</button>
+    </ion-card>
+
+    <ion-card>
+        <ion-item>
+          <img src="assets/imgs/fourth.jpg" style="height: 100px;">
+        </ion-item>
+      <ion-card-content style="font-family: Montserrat-Regular">
+          Compensation at least half in swiss climate protection projects. 
+          <br><br>
+            <p style="text-align: end">
+                CHF 117.00
+            </p>
+        </ion-card-content>
+        <button ion-button style="width: 100%;margin-bottom:0;background:#28a745" (click)="gotopay()">Add To Cart</button>
+      </ion-card>
+  <br>
+  <h5>My Carbon Footprint:</h5>
+    <p style="font-family: Montserrat-Regular">My Trip</p>
+    <br>
+    <p style="font-family: Montserrat-Regular">The maximum amount of CO2 a person should produce per year in order to halt climate change</p>
+  <br>
+</ion-content>

@@ -1,0 +1,85 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu" style="color: white"></ion-icon>
+    </button>
+    <ion-title style="padding: 0 !important;">Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h5 style="text-align: center;margin-top: 10px;color: #202020;">Calculate and Compensate for your Emissions!</h5>
+
+  <ion-grid>
+
+    <ion-row style="text-align: center">
+      <ion-col>
+        <ion-thumbnail (click)="gotocalflight()">
+          <img src="assets/imgs/airplane.jpg">
+          <label style="text-align: center">Flight</label>
+        </ion-thumbnail>
+      </ion-col>
+      <ion-col>
+        <ion-thumbnail (click)="gotocalflight()">
+          <img src="assets/imgs/car.jpg">
+          <label style="text-align: center">Car</label>
+        </ion-thumbnail>
+      </ion-col>
+      <ion-col>
+        <ion-thumbnail (click)="gotocalflight()">
+          <img src="assets/imgs/cruise.jpg">
+          <label style="text-align: center">Cruise</label>
+        </ion-thumbnail>
+      </ion-col>
+    </ion-row>
+    <!-- row2 -->
+    <br><br>
+    <ion-row style="text-align: center">
+      <ion-col align-self-start (click)="gotocalflight()">
+        <ion-thumbnail slot="start">
+          <img src="assets/imgs/footprint.jpg">
+          <label style="text-align: center">Footprint</label>
+        </ion-thumbnail>
+      </ion-col>
+      <ion-col align-self-center>
+        <ion-thumbnail slot="start" (click)="gotocalflight()">
+          <img src="assets/imgs/project.jpg">
+          <label style="text-align: center">My Project</label>
+        </ion-thumbnail>
+      </ion-col>
+      <ion-col align-self-end>
+        <ion-thumbnail slot="start" (click)="gotocalflight()">
+          <img src="assets/imgs/household.jpg">
+          <label style="text-align: center">Household</label>
+        </ion-thumbnail>
+      </ion-col>
+    </ion-row>
+    <!-- row3 -->
+    <br><br>
+    <ion-row style="text-align: center">
+      <ion-col align-self-start>
+        <ion-thumbnail slot="start" (click)="gotocalflight()">
+          <img src="assets/imgs/company.jpg">
+          <label style="text-align: center">Company</label>
+        </ion-thumbnail>
+      </ion-col>
+      <ion-col align-self-center>
+        <ion-thumbnail slot="start" (click)="gotocalflight()">
+          <img src="assets/imgs/events.jpg">
+          <label style="text-align: center">Events</label>
+        </ion-thumbnail>
+      </ion-col>
+      <ion-col align-self-end>
+        <ion-thumbnail slot="start" (click)="gotocalflight()">
+          <img src="assets/imgs/donation.jpg">
+          <label style="text-align: center">Donations</label>
+        </ion-thumbnail>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+  <br>
+  <h3 style="-webkit-text-stroke: 1px red;text-align: center;color: #ff000059;opacity: 0.5;transform: rotate(-10deg);">
+    This is a demo app only</h3>
+
+</ion-content>
